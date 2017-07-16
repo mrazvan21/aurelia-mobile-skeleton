@@ -1,0 +1,22 @@
+.login_page {
+  flex :1;
+  background: #E6EAEE;
+  width: 100%;
+  min-height: 100%;
+
+
+  .header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background:#ffffff;
+  }
+
+  .form {
+    width: initial;
+    padding: 10px 30px;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+}

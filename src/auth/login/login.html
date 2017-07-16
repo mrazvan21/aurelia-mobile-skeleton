@@ -1,0 +1,19 @@
+<template>
+  <require from="./login.scss"></require>
+  <section class="login_page">
+    <ux-form class="form">
+      <ux-field label="Email">
+        <ux-input type="email" value.bind="email & validate"></ux-input>
+        <ux-input-info></ux-input-info>
+      </ux-field>
+
+      <ux-field label="Password">
+        <ux-input type="password" value.bind="password & validate"></ux-input>
+        <ux-input-info></ux-input-info>
+      </ux-field>
+
+      <ux-button type="raised" click.delegate="submit()">Login</ux-button>
+    </ux-form>
+  </section>
+  </section>
+</template>
