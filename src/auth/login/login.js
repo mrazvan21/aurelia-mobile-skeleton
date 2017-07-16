@@ -6,11 +6,10 @@ import {inject} from 'aurelia-framework';
 @inject(ValidationControllerFactory, Router)
 export class Login {
 
-  constructor(/*authService,*/ controllerFactory, router) {
+  constructor(controllerFactory, router) {
     this.email = '';
     this.password = '';
 
-    /*this.authService = authService;*/
     this.router = router;
     this.controller = controllerFactory.createForCurrentScope();
     this.controller.addRenderer(new UXFormRenderer());
