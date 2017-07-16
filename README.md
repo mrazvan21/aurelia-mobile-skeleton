@@ -4,9 +4,6 @@ Aurelia Mobile Skeleton (Aurelia, Aurelia UX, Webpack)
 
 <img src="resources/img/demo.jpg" alt="Demo">
 
-![](resources/img/demo_pic_2.png)  |  ![](resources/img/demo_pic_1.png)
-
-
 ## Getting Started
 
 ### Initialize your environment
