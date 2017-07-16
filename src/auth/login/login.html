@@ -1,6 +1,9 @@
 <template>
   <require from="./login.scss"></require>
   <section class="login_page">
+    <div class="header">
+      <img class="reg_logo" src="./../../../resources/img/aurelia_logo.png">
+    </div>
     <ux-form class="form">
       <ux-field label="Email">
         <ux-input type="email" value.bind="email & validate"></ux-input>
