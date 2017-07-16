@@ -24,10 +24,6 @@
     <preference name="SplashScreenDelay" value="3000" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <allow-intent href="*" />
-        <allow-navigation href="*" />
-        <config-file parent="/*" target="AndroidManifest.xml">
-        </config-file>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -35,10 +31,6 @@
     </platform>
     <feature name="http://api.phonegap.com/1.0/media" />
     <engine name="android" spec="^6.2.3" />
-    <plugin name="cordova-custom-config" spec="^4.0.2" />
-    <plugin name="cordova-plugin-console" spec="^1.0.5" />
-    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
-    <plugin name="cordova-plugin-statusbar" spec="^2.2.2" />
-    <plugin name="cordova-plugin-whitelist" spec="^1.3.1" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
 </widget>
