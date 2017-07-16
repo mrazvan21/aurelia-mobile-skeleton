@@ -1,5 +1,7 @@
 # aurelia-mobile-skeleton
 
+Aurelia Mobile Skeleton (Aurelia, Aurelia UX, Webpack)
+
 ## Initialize your environment
 
 ```shell
@@ -40,7 +42,7 @@ npm start -- build
 $ amobile run-android
 ```
 
-- ios (to do)
+- ios
 ```shell
 $ amobile run-ios
 ```

@@ -93,7 +93,7 @@
         "isomorphic-fetch": "2.2.1",
         "jquery": "3.2.1"
     },
-    "displayName": "agentapp.overpass.com",
+    "displayName": "aurelia-mobile-skeleton",
     "cordova": {
         "platforms": [
             "android"
