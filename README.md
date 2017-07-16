@@ -1,6 +1,6 @@
 # aurelia-mobile-skeleton
 
-Aurelia Mobile Skeleton (Aurelia, Aurelia UX, Webpack)
+Aurelia Mobile Skeleton (Aurelia, Aurelia UX, Webpack, Cordova)
 
 <img src="resources/img/demo.jpg" alt="Demo">
 
